@@ -22,4 +22,4 @@ dependencies {
         android:background="#999"/>
         
 4.代码中使用waveView.putValue(value)为波形图添加采集到的音量值，
-  使用setHasOver(true)方法设置停止采集后，若采集点的展示超出了宽度，可左右滑动展示
+  使用setHasOver(true)方法设置停止采集后，若采集点的展示超出了宽度，此时可左右滑动展示
