@@ -3,13 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.chrischen.androidwaveview.MainActivity">
 
     <com.chrischen.waveview.WaveView
         android:id="@+id/waveView"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="#999"/>
+        android:background="#999"
+        app:wvType="single"
+        app:wvCenterLineColor="#f0f"
+        app:wvCenterLineWidth="1dp"
+        app:wvLineColor="#ff0"
+        app:wvLineWidth="1dp"
+        app:wvLineSpace="5dp"/>
 
 
 </FrameLayout>

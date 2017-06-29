@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveView">
+        <attr name="wvType" format="enum">
+            <enum name="centerLine" value="0"/>
+            <enum name="single" value="1"/>
+        </attr>
+        <attr name="wvCenterLineColor" format="color" />
+        <attr name="wvCenterLineWidth" format="dimension" />
+        <attr name="wvLineColor" format="color" />
+        <attr name="wvLineWidth" format="dimension" />
+        <attr name="wvLineSpace" format="dimension" />
+    </declare-styleable>
+</resources>
